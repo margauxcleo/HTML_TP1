@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <!-- CDN font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!-- CDN Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="conteneur grid">
+            <div class="haut-gauche">
+                <h1>Margaux VITEZ</h1>
+                <h2><span class="blueUppercase">D</span>éveloppement sites Web et applications / <span class="blueUppercase">S</span>EO </h2>
+            </div>
+            <div class="haut-droite">
+                <a class="link" href="assets/document/MARGAUX_VITEZ_CV.pdf" download="assets/document/MARGAUX_VITEZ_CV.pdf">Télécharger mon CV</a>
+                <br>
+                <a class="link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://127.0.0.1:5500/TP1/cv.html&title=&summary=&source=">Partager</a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li class="nav-item"><a href="accueil.html">Accueil</a></li>
+                    <li class="nav-item"><a href="cv.html">Mon CV</a></li>
+                    <li class="nav-item"><a href="projects.html">Mes projets</a></li>
+                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                </ul> 
+            </nav>
+        </div>
+    </header>
+    <section id="projects">
+        <h3 id="sommaire">Sommaire</h3>
+        <ol>
+            <li><a href="#project1" class="link">Site web one page</a></li>
+            <li><a href="#project2" class="link">Office de tourisme sous Wordpress</a></li>
+            <li><a href="#project3" class="link">Carte intéractive de location de vélos</a></li>
+            <li><a href="#project4" class="link">Blog d'un écrivain</a></li>
+            <li><a href="accueil.html" class="link">Site actuel</a></li>
+        </ol>
+
+        <article>
+            <h2 id="project1">Intégrer la maquette du site d'une agence web</h2>
+            <a href="http://www.margaux-vitez-webagency.com/" class="link">Lien vers le site</a>
+            <ul>
+                <li>Coder la structure d’une page Web en HTML5</li>
+                <li>Coder la présentation d’une page Web en CSS3</li>
+                <li>Définir le contenu d’une page Web à partir d’une maquette</li>
+                <li>Gérer la responsivité avec les Media Queries</li>
+                <li>Gérer l’hébergement d’un site</li>
+            </ul>
+        </article>
+        <article>
+            <h2 id="project2">Créer le site d'un office de tourisme</h2>
+            <a href="http://ots-vitez.fr/" class="link">Lien vers le site</a>
+            <ul>
+                <li>Appréhender le fonctionnement d’un CMS
+                    open source (WordPress)</li>
+                <li>Définir un besoin, rechercher le plugin adapté</li>
+                <li>Créer des animations avec CSS3</li>
+                <li>Définir la structure de navigation d’un site</li>
+                <li>Appliquer les principes de SEO dans le code HTML</li>
+            </ul>
+        </article>
+        <article>
+            <h2 id="project3">Concevoir une carte intéractive de location de vélos</h2>
+            <a href="http://bikin-toulouse.fr/" class="link">Lien vers le site</a>
+            <ul>
+                <li>Faire des requêtes HTTP en langage JavaScript</li>
+                <li>Récupérer des données de formulaires en utilisant le langage JavaScript ;</li>
+                <li>Comprendre et utiliser les données d’une API</li>
+                <li>Créer des objets simples en JavaScript,
+                    contenant des méthodes et des propriétés</li>
+                <li>Utiliser un logiciel de gestion de version (Git) –</li>
+            </ul>
+        </article>
+        <article>
+            <h2 id="project4">Créer un blog pour un écrivain</h2>
+            <a href="http://blogjforteroche-vitez.fr/index.php" class="link">Lien vers le site</a>
+            <ul>
+                <li>Organiser le code en langage PHP ;</li>
+                <li>Organiser son code selon la méthode MVC</li>
+                <li>Construire une base de données (MySQL)
+                </li>
+                <li>Insérer ou modifier les données d’une base (MySQL)</li>
+                <li>Récupérer la saisie d’un formulaire utilisateu en langage PHP</li>
+            </ul>
+        </article>
+        <a href="#sommaire" class="link">Retour au sommaire</a>
+    </section>
+    <footer>
+        <ul>
+            <li class="footer-item"><a class="link" href="infos.html">Informations</a></li>
+            <li class="footer-item"><a class="link" href="legal.html">Mentions légales</a>
+            </li>
+            <li class="footer-item"><a class="link" href="contact.html">Contact</a></li>
+        </ul>
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
